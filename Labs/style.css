@@ -1,0 +1,126 @@
+/*Google Font*/
+@import url('https://fonts.googleapis.com/css2?family=B612&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #24252A;
+}
+
+body {
+    font-family: 'B612', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+    background-color:rgba(31, 184, 255, 0.198);
+    text-align:center;
+    font-weight: bold;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 30px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-color:rgba(31, 184, 255, 0.198);
+    margin: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+header img {
+    background-color:rgba(31, 184, 255, 0);
+}
+
+
+.nav_links li{
+    display: inline-block;
+    justify-content: space-between;
+    padding: 0 30px;
+    background-color: rgba(31, 184, 255, 0.2);
+}
+
+.nav_links li{
+    background-color: rgba(31, 184, 255, 0.2);
+}
+
+a {
+    background-color:rgba(31, 184, 255, 0);
+}
+
+.body, header,h1,div{   
+    background-color:rgba(31, 184, 255, 0.198);
+    text-align:center;
+    font-weight: bold;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 10px;
+    padding: 10px;
+
+}
+
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    min-height: 30vh;
+}
+
+/*Labs Button*/
+.btn-lab {
+    font-size: 2em;
+    font-weight: bold;
+    width: 300px;
+    height: 100px;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    transition: ease-out 0.3s;
+    outline: none;
+    background: #323946;
+    border: 5px solid #42FBF2;
+    position: relative;
+    z-index: 1;
+    animation: mymove 5s infinite;
+}
+
+.btn-lab:hover {
+    color: #fff;
+    cursor: pointer;
+}
+
+.btn-lab:before{
+    transition: 0.5s all ease;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    right: 50%;
+    bottom: 0;
+    opacity: 0;
+    content: "";
+    background-color: #42fbf26e;
+}
+
+.btn-lab:hover:before{
+    transition: 0.5s all ease;
+    left: 0;
+    right: 0;
+    opacity: 1;
+    z-index: -1
+}
+
+
+
+@keyframes mymove {
+    100% {border-color: lightblue;}
+}
+
+
+
