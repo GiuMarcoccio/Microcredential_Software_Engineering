@@ -1,0 +1,32 @@
+.a {
+    text-align: center;
+    background-color: rgba(187, 187, 187, 0.698);
+    margin: 0;
+    padding: 20px;
+}
+
+.b{
+    background: rgba(0, 0, 0, 0.835);
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    list-style-type: none;
+}
+
+#b-link{
+    float: left;
+    color: #fff;
+    padding: 8px;    
+    text-decoration: none;
+}
+
+#b-link:hover{
+    background: white;
+    color: black;
+}
+
+.c {
+    float: left;
+    width: 33%;
+    margin: 0px;
+}
