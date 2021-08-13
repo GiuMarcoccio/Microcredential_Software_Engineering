@@ -1,0 +1,36 @@
+body{
+    background-color:beige;
+}
+.a {
+    text-align: center;
+    background-color: rgb(4,170,109);
+    margin: 0;
+    padding: 20px;
+    color: white;
+}
+
+.b{
+    background: rgb(4, 80, 52);
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    list-style-type: none;
+}
+
+#b-link{
+    float: left;
+    color: #fff;
+    padding: 8px;    
+    text-decoration: none;
+}
+
+#b-link:hover{
+    background: beige;
+    color: rgb(4, 80, 52);
+}
+
+.c {
+    float: left;
+    width: 33%;
+    margin: 0px;
+}

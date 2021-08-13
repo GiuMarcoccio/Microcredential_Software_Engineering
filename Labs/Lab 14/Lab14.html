@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS Website Layout</title>
-    <link rel="stylesheet" href="style1.css">
+    <link id="link" rel="stylesheet" href="style.css">
+    <script src="changeCSS.js"></script>
 </head>
 <body>
     <div class="a">
@@ -45,6 +46,11 @@
             <label for="spower">Super Power:</label>
             <input type="text" id="spower" name="spower"><br><br>
         </form>
+
+        <button type="button" onclick="styleD()">Change Stylesheet Default</button><br>
+        <button type="button" onclick="style1()">Change Stylesheet 1</button><br>
+        <button type="button" onclick="style2()">Change Stylesheet 2</button><br>
+        <button type="button" onclick="style3()">Change Stylesheet 3</button>
 
         <h3>These are my Students</h3>
     </div>
