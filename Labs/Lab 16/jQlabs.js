@@ -21,4 +21,6 @@ $(document).ready(function(){
         a.animate({height: '-=5px', opacity: "+=0.3"}, "fast");
         a.animate({height: '+=110px', opacity: "-=0.1"}, "slow");
     });
+
+    $("#p1").css("color","red").slideUp(2000).slideDown(2000);
 });
